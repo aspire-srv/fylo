@@ -1,0 +1,21 @@
+.main {
+    display: grid;
+  }
+  
+  .main__primary {
+    margin-top: 6rem;
+  }
+
+  .main__secondary {
+    margin-top: 6rem;
+  }
+
+  .main__tertiary {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
+  .main__accent-image {
+    width: 100%;
+    padding-top: 7rem;
+  }
+  

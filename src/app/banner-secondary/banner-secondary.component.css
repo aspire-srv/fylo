@@ -1,0 +1,158 @@
+@import url(../../assets/css/variable.css);
+
+.banner {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  color: var(--blue-dark);
+  background-color: var(--gray-blue);
+}
+
+.banner-heading {
+  font-family: var(--font-body);
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.banner-text {
+  font-size: 1.7rem;
+  padding: 2rem 3rem;
+  text-align: left;
+}
+
+.banner-image {
+  width: 100%;
+  padding: 3rem;
+}
+
+.illustration-1-img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-left-box {
+  padding: 0rem;
+}
+
+.secondary__link {
+  color: var(--cyan);
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.secondary__link-wrapper {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid var(--cyan);
+  width: fit-content;
+  line-height: 2rem;
+  margin-bottom: 10px;
+}
+
+.secondary__link-text {
+  white-space: nowrap;
+  margin-right: 1rem;
+}
+
+.secondary__link-image {
+  background-image: url("src/assets/images/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2rem;
+  height: auto;
+}
+
+.secondary__testimonial {
+  background-color: white;
+  display: grid;
+  grid-gap: 1rem;
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.testimonial__body {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: left;
+}
+
+.testimonial__user {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+  justify-content: left;
+  text-align: left;
+}
+
+.user__image {
+  width: 3rem;
+  border-radius: 3rem;
+}
+
+.user__name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 992px) {
+  .banner {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .banner-content {
+    width: 50%;
+  }
+
+  .banner-left-box {
+    /* width: 70%;
+    margin: 0 auto; */
+    padding: 6rem;
+  }
+  .banner-heading {
+    font-weight: 700;
+    font-size: 3.3rem;
+    padding: 0 0 2rem 0;
+    margin: 0;
+  }
+
+  .banner-text {
+    font-size: 1.8rem;
+    padding: 2rem 0;
+  }
+
+  .banner-input {
+    width: 40%;
+  }
+
+  .secondary__link {
+    font-size: 1.8rem;
+    justify-content: left;
+  }
+
+  .banner-image {
+    width: 50%;
+    padding: 6rem;
+  }
+
+  .secondary__testimonial {
+    width: 60%;
+    margin: 2rem 0;
+    letter-spacing: 2px;
+  }
+
+  .testimonial__body {
+    font-size: 1.6rem;
+  }
+}
